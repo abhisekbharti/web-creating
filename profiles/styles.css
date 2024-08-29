@@ -1,0 +1,60 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-box {
+    background-color: #ff574a;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 90px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    font-family: 16px poppins, sans-serif;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -50px; /* Adjusts to fill the width */
+    margin-bottom: 20px;
+}
+
+.menu-icon,
+.settings-icon {
+    width: 25px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #fff; /* Optional: for a white border effect */
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0 20px;
+}
+
+.social-media img {
+    width: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.social-media img:hover {
+    opacity: 0.8; /* Optional: hover effect */
+}
